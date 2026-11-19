@@ -115,6 +115,6 @@ Found a bug or have an idea? [Open an issue](https://github.com/Joshspeakman/dri
 
 ## Insert Coin
 
-If this saved you some time (or saved you from buying something twice), you can buy me a Continue on Ko-fi. It's $5 and it keeps me building stuff like this.
+If this saved you some time, you can buy me a Continue on Ko-fi. It's $5 and it keeps me building stuff like this.
 
 [![Buy me a Continue on Ko-fi](https://img.shields.io/badge/Buy_me_a_Continue_%7C_%245-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/speakerjosh)
