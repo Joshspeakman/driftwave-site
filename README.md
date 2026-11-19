@@ -7,6 +7,10 @@
 
 <p align="center"><b>Internet radio for Windows, macOS and Linux.</b><br>Find a station, hear what's on, and keep the songs you love.</p>
 
+<p align="center">
+  <a href="https://ko-fi.com/speakerjosh"><img src="https://img.shields.io/badge/Buy_me_a_Continue_%7C_%245-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Buy me a Continue on Ko-fi"></a>
+</p>
+
 ## Driftwave is being rebuilt
 
 Driftwave is being rewritten from the ground up as **one app, in Rust**, for Windows, macOS and Linux. The earlier
@@ -29,3 +33,13 @@ artwork or other assets, and it isn't affiliated with or endorsed by the Shortwa
 
 Station data comes from the community-run [radio-browser.info](https://www.radio-browser.info).
 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) credits the fonts and photographs Driftwave uses.
+
+## Feedback
+
+Found a bug or have an idea? [Open an issue](https://github.com/Joshspeakman/driftwave/issues).
+
+## Insert Coin
+
+If this saved you some time, you can buy me a Continue on Ko-fi. It's $5 and it keeps me building stuff like this.
+
+[![Buy me a Continue on Ko-fi](https://img.shields.io/badge/Buy_me_a_Continue_%7C_%245-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/speakerjosh)
