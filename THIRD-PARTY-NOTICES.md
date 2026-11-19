@@ -26,9 +26,9 @@ The SIL Open Font License is at https://openfontlicense.org.
 - **radio-browser.info**: the community station directory, used for Discover and Search. Station names, logos and streams belong to their owners.
 - **GitHub Releases**: where Settings > Updates looks for new versions.
 
-## Inspiration
+## Shortwave
 
-Driftwave is inspired by [Shortwave](https://gitlab.gnome.org/World/Shortwave) by Felix Häcker and contributors (GPL-3.0-or-later). Driftwave doesn't contain Shortwave's code, artwork or other assets.
+Driftwave is based on [Shortwave](https://gitlab.gnome.org/World/Shortwave) by Felix Häcker and contributors (GPL-3.0-or-later): its design for finding, playing and recording internet radio, and parts of its recording model and wording. Driftwave is likewise licensed under the GNU GPL, version 3 or later ([LICENSE](LICENSE)); its source is at https://github.com/Joshspeakman/shortwave-macos. Driftwave doesn't use Shortwave's artwork.
 
 ## Theme photographs
 

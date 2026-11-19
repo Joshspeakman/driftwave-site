@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Driftwave</title>
-<meta name="description" content="Driftwave: internet radio for Windows, macOS and Linux. Being rebuilt as one app, in Rust.">
+<meta name="description" content="Driftwave: internet radio for Windows and macOS. One small open-source app, written in Rust, with a Full layout and a Classic player.">
 <link rel="icon" href="brand/favicon-32.png">
 <link rel="apple-touch-icon" href="brand/logo-mark-512.png">
 <style>
@@ -34,24 +34,31 @@
 <header>
   <div class="wrap">
     <h1><img src="brand/logo-mark-512.png" alt="">Driftwave</h1>
-    <p class="lede">Internet radio for Windows, macOS and Linux. Find a station, hear what's on, and keep the songs you love.</p>
+    <p class="lede">Internet radio for Windows and macOS (Linux to follow). Find a station, hear what's on, and keep the songs you love.</p>
   </div>
 </header>
 <main class="wrap">
-  <h2>Being rebuilt</h2>
+  <p><img src="brand/screenshots/hero.webp" alt="Driftwave: the Full layout in the Night Market theme, with the Classic player over it" style="width:100%;height:auto"></p>
+  <h2>Download</h2>
   <div class="card">
-    <p>Driftwave is being rewritten from the ground up as one app, in Rust. The earlier Windows app has been retired, and its downloads have been removed.</p>
-    <p>The new Driftwave has one window with two looks:</p>
+    <p><b><a href="https://github.com/Joshspeakman/driftwave/releases/latest">Driftwave 1.0.0-alpha.1</a></b> for Windows (64-bit). Unzip it, right-click <code>Install.ps1</code> and choose <i>Run with PowerShell</i>: it installs for you alone, no admin rights needed, and updates itself from Settings &gt; Updates. It's an alpha, so expect rough edges and <a href="https://github.com/Joshspeakman/driftwave/issues">tell us about them</a>. The Mac build will follow.</p>
+  </div>
+  <h2>One app, two looks</h2>
+  <div class="card">
     <ul>
-      <li><b>Full:</b> your library, Discover, Search, the player with the songs it has played, and themes.</li>
-      <li><b>Classic:</b> a compact player in the spirit of the late-90s classics, with a visualizer slot.</li>
+      <li><b>Full:</b> your library, Discover and Search, the player with the songs it has played, recording, and Settings.</li>
+      <li><b>Classic:</b> an LCD, a scrolling title, six original visualizers and a station list, in the spirit of the late-90s players. Right-click anywhere for its menu.</li>
+      <li><b>Themes:</b> Default plus 26 built-ins in both layouts, your own themes, and your own picture or GIF behind the window. Nothing ever flashes.</li>
     </ul>
-    <p>You swap between them while the music carries on.</p>
-    <p>The first release will appear on the <a href="https://github.com/Joshspeakman/driftwave/releases">Releases</a> page when it's ready.</p>
+    <p>You swap between the two while the music carries on.</p>
+  </div>
+  <h2>Open source</h2>
+  <div class="card">
+    <p>Driftwave is free software under the <a href="LICENSE">GNU GPL</a>, version 3 or later. The source is at <a href="https://github.com/Joshspeakman/shortwave-macos">Joshspeakman/shortwave-macos</a>.</p>
   </div>
 </main>
 <footer class="wrap">
-  Inspired by <a href="https://gitlab.gnome.org/World/Shortwave">Shortwave</a> by Felix Häcker and contributors; Driftwave contains none of its code.
+  Based on <a href="https://gitlab.gnome.org/World/Shortwave">Shortwave</a> by Felix Häcker and contributors.
   Station data from <a href="https://www.radio-browser.info">radio-browser.info</a>. <a href="https://github.com/Joshspeakman/driftwave/blob/main/THIRD-PARTY-NOTICES.md">Credits and licences</a>.
 </footer>
 </body>
