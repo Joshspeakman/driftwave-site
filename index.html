@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Driftwave</title>
-<meta name="description" content="Driftwave: internet radio for Windows and macOS. One small open-source app, written in Rust, with a Full layout and a Classic player.">
+<meta name="description" content="Driftwave: internet radio for Windows and macOS. One tiny open-source app, built in Rust to use as little of your computer as possible, with a Full layout and a Classic player.">
 <link rel="icon" href="brand/favicon-32.png">
 <link rel="apple-touch-icon" href="brand/logo-mark-512.png">
 <style>
@@ -51,6 +51,15 @@
       <li><b>Themes:</b> Default plus 26 built-ins in both layouts, your own themes, and your own picture or GIF behind the window. Nothing ever flashes.</li>
     </ul>
     <p>You swap between the two while the music carries on.</p>
+  </div>
+  <h2>Light by design</h2>
+  <div class="card">
+    <p>Driftwave is built in Rust around one idea: take as little of your computer as possible. One self-contained program, a 15.6 MB download, about 46 MB of memory while it plays, and under 1% of one CPU core on the Default theme.</p>
+    <ul>
+      <li><b>It draws only what changes,</b> in software, rather than starting up the graphics card for one window.</li>
+      <li><b>Out of sight, out of the way:</b> behind other windows its scenes hold still; minimised or in the notification area, nothing draws at all.</li>
+      <li><b>It knows its limits:</b> visualizers keep to a pixel budget that shrinks on a slower computer, and moving scenes hold still by themselves if they'd take more than their share.</li>
+    </ul>
   </div>
   <h2>Open source</h2>
   <div class="card">
