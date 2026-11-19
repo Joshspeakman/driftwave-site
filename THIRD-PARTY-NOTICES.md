@@ -27,3 +27,25 @@ The SIL Open Font License is at https://openfontlicense.org.
 ## Inspiration
 
 Driftwave is inspired by [Shortwave](https://gitlab.gnome.org/World/Shortwave) by Felix Häcker and contributors (GPL-3.0-or-later). Driftwave doesn't contain Shortwave's code, artwork or other assets.
+
+## Theme photographs
+
+Some themes use photographs from Wikimedia Commons under free licences (resized for the app). Thank you to the photographers:
+
+| Theme | Photograph | Author | Licence |
+|---|---|---|---|
+| Night Market | [Colorful neon street signs in Kabukichō, Shinjuku, Tokyo](https://commons.wikimedia.org/wiki/File:Colorful_neon_street_signs_in_Kabukich%C5%8D,_Shinjuku,_Tokyo.jpg) | Basile Morin | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Neon Noir | [Akihabara Main Street south side at night](https://commons.wikimedia.org/wiki/File:Akihabara_Main_Street_south_side_at_night_(2017-03-29_21.39.33_by_yagi-s).jpg) | yagi-s | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
+| Aurora Glass | [Aurora borealis](https://commons.wikimedia.org/wiki/File:PIXNIO-1094468-aurora_borealis.jpg) | Yuliya | CC0 |
+| Luna | [Polonyna Rohneska, Zakarpattia, Ukraine](https://commons.wikimedia.org/wiki/File:Ukraine,_Zakarpatska,_Bohdan_-_%D0%9F%D0%BE%D0%BB%D0%BE%D0%BD%D0%B8%D0%BD%D0%B0_%D0%A0%D0%BE%D0%B3%D0%BD%D0%B5%D1%81%D0%BA%D0%B0_WMID5619549.jpg) | ChSt | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
+| Big Glass | [Big Sur, California – Poseidon's Gate](https://commons.wikimedia.org/wiki/File:Big_Sur,_California_-_Poseidon%27s_Gate.jpg) | Janusz Sobolewski | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
+
+The resized photographs keep their licences. The other theme pictures (light wallpapers, metal, rain) were made for Driftwave.
+
+## Homage themes
+
+The homage themes are tributes to computers, phones and consoles. They're original work: no logos, artwork, fonts or other assets from those products are included, and Driftwave isn't affiliated with or endorsed by their makers. Product names appear only in descriptions, to say what each theme is a tribute to.
+
+## GIPHY
+
+Background search uses the [GIPHY](https://giphy.com) API ("Powered by GIPHY"). GIFs you choose are downloaded to your PC; their rights belong to their owners.

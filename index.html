@@ -5,7 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Driftwave</title>
 <meta name="description" content="Driftwave: internet radio for Windows, with recording, themes and one-click updates.">
-<link rel="icon" href="images/icon.png">
+<link rel="icon" href="brand/favicon-32.png">
+<link rel="apple-touch-icon" href="brand/logo-mark-512.png">
+<meta property="og:image" content="https://joshspeakman.github.io/driftwave/images/playing-dark.png">
 <style>
   :root {
     --bg: #faf7f5; --surface: #ffffff; --text: #1d1a24; --muted: #5d5868; --line: #e6e0e8;
@@ -21,7 +23,8 @@
   header { background: var(--glow); color: #fff; padding: 56px 0 0; }
   header .wrap { display: grid; gap: 28px; }
   h1 { font-size: clamp(40px, 7vw, 64px); line-height: 1; margin: 0; letter-spacing: -0.02em; display: flex; align-items: center; gap: 16px; }
-  h1 img { width: 64px; height: 64px; }
+  h1 img { width: 72px; height: 72px; }
+  .badge { margin: 0; display: inline-block; justify-self: start; background: rgba(255,255,255,0.18); border: 1px solid rgba(255,255,255,0.35); border-radius: 999px; padding: 4px 12px; font-size: 14px; font-weight: 600; }
   .lede { font-size: 20px; max-width: 640px; margin: 0; opacity: 0.95; }
   .actions { display: flex; flex-wrap: wrap; gap: 12px; }
   .button { display: inline-block; padding: 12px 20px; border-radius: 8px; font-weight: 600; text-decoration: none; }
@@ -46,13 +49,15 @@
 <body>
 <header>
   <div class="wrap">
-    <h1><img src="images/icon.png" alt="">Driftwave</h1>
+    <h1><img src="brand/logo-mark.svg" alt="">Driftwave</h1>
+    <p class="badge">1.0 Beta 1 is out</p>
     <p class="lede">Internet radio for Windows. Find a station, hear what's on, and keep the songs you love, each saved as its own file.</p>
     <div class="actions">
       <a class="button primary" href="https://github.com/Joshspeakman/driftwave/releases">Download</a>
+      <a class="button secondary" href="https://github.com/Joshspeakman/driftwave/wiki">User guide</a>
       <a class="button secondary" href="https://github.com/Joshspeakman/driftwave">On GitHub</a>
     </div>
-    <img class="hero" src="images/retrowave.png" alt="Driftwave playing a station, with the Retrowave theme" width="1164" height="751">
+    <img class="hero" src="images/playing-dark.png" alt="Driftwave playing a station" width="1164" height="751">
   </div>
 </header>
 
@@ -63,7 +68,7 @@
       <div class="card"><h3>Discover</h3><p>Search tens of thousands of stations from radio-browser.info, or add your own stream.</p></div>
       <div class="card"><h3>Now playing</h3><p>Song titles in the app, in Windows' media overlay and on your media keys.</p></div>
       <div class="card"><h3>Recording</h3><p>Each song is saved as a separate file, cut where the title changes.</p></div>
-      <div class="card"><h3>Themes</h3><p>Nine built-in looks and your own, with calm effects and no flashing, ever.</p></div>
+      <div class="card"><h3>Themes</h3><p>26 built-in looks (including homages to classic computers, phones and consoles) and your own, plus your own GIF or picture background. Calm effects, no flashing, ever.</p></div>
       <div class="card"><h3>Mini player</h3><p>A small always-there player and a notification-area icon.</p></div>
       <div class="card"><h3>Updates</h3><p>One click in Settings. Your station keeps playing across the restart.</p></div>
     </div>
@@ -72,10 +77,15 @@
   <section>
     <h2>Themes</h2>
     <div class="gallery">
-      <figure><img src="images/analog-70s.png" alt="Analog 70s theme" loading="lazy" width="1164" height="751"><figcaption>Analog 70s</figcaption></figure>
-      <figure><img src="images/frosted-glass.png" alt="Frosted Glass theme" loading="lazy" width="1164" height="751"><figcaption>Frosted Glass</figcaption></figure>
-      <figure><img src="images/classic-skin.png" alt="Classic Skin theme" loading="lazy" width="1164" height="751"><figcaption>Classic Skin</figcaption></figure>
-      <figure><img src="images/stealth.png" alt="Stealth theme" loading="lazy" width="1164" height="751"><figcaption>Stealth</figcaption></figure>
+      <figure><img src="images/theme-retrowave.jpg" alt="Retrowave theme" loading="lazy" width="1164" height="751"><figcaption>Retrowave</figcaption></figure>
+      <figure><img src="images/theme-neon-noir.jpg" alt="Neon Noir theme" loading="lazy" width="1164" height="751"><figcaption>Neon Noir</figcaption></figure>
+      <figure><img src="images/theme-analog-70s.jpg" alt="Analog 70s theme" loading="lazy" width="1164" height="751"><figcaption>Analog 70s</figcaption></figure>
+      <figure><img src="images/theme-classic-skin.jpg" alt="Classic Skin theme" loading="lazy" width="1164" height="751"><figcaption>Classic Skin</figcaption></figure>
+      <figure><img src="images/theme-retro-64.jpg" alt="Retro 64 theme" loading="lazy" width="1164" height="751"><figcaption>Retro 64</figcaption></figure>
+      <figure><img src="images/theme-frosted-glass.jpg" alt="Frosted Glass theme" loading="lazy" width="1164" height="751"><figcaption>Frosted Glass</figcaption></figure>
+      <figure><img src="images/theme-liminal.jpg" alt="Liminal Space theme" loading="lazy" width="1164" height="751"><figcaption>Liminal Space</figcaption></figure>
+      <figure><img src="images/theme-brutalist.jpg" alt="Brutalist theme" loading="lazy" width="1164" height="751"><figcaption>Brutalist</figcaption></figure>
+      <figure><img src="images/theme-stealth.jpg" alt="Stealth theme" loading="lazy" width="1164" height="751"><figcaption>Stealth</figcaption></figure>
     </div>
   </section>
 
@@ -87,6 +97,7 @@
       <li>Unzip it, right-click <strong>Install.ps1</strong> and choose <strong>Run with PowerShell</strong>. No admin rights are needed.</li>
       <li>Start Driftwave from the Start menu. Later updates come through Settings &gt; Updates.</li>
     </ol>
+    <p>The <a href="https://github.com/Joshspeakman/driftwave/wiki">user guide</a> covers the library, recording, themes, shortcuts and troubleshooting.</p>
   </section>
 
   <section>
