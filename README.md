@@ -15,7 +15,7 @@
 
 ## Download
 
-**[Driftwave 1.0.0-alpha.1](https://github.com/Joshspeakman/driftwave/releases/latest)** for Windows (64-bit): download
+**[Driftwave 1.0.0-alpha.1](https://github.com/Joshspeakman/driftwave/releases/tag/v1.0.0-alpha.1)** for Windows (64-bit): download
 the zip, unzip it, right-click `Install.ps1` and choose *Run with PowerShell*. It installs for you alone, no admin
 rights needed, and updates itself from Settings > Updates. It's an alpha: expect rough edges, and please
 [tell us about them](https://github.com/Joshspeakman/driftwave/issues). The Mac build will follow.
