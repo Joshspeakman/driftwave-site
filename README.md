@@ -108,3 +108,9 @@ Station data comes from the community-run [radio-browser.info](https://www.radio
 ## Feedback
 
 Found a bug or have an idea? [Open an issue](https://github.com/Joshspeakman/driftwave/issues).
+
+## Support
+
+If you get some use out of this, you can buy me a coffee on Ko-fi.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/speakerjosh)
