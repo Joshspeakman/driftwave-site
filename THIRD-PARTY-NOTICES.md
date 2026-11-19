@@ -1,6 +1,6 @@
 # Third-party notices
 
-Driftwave includes or uses the following. The licence texts for the fonts ship with the app in `Assets\Fonts\`.
+Driftwave includes or uses the following. The licence texts for the fonts ship with the app.
 
 ## Fonts (SIL Open Font License 1.1)
 
@@ -15,9 +15,11 @@ Driftwave includes or uses the following. The licence texts for the fonts ship w
 
 The SIL Open Font License is at https://openfontlicense.org.
 
-## Runtime
+## Software
 
-- **.NET** and the **Windows App SDK** (WinUI 3), by Microsoft, under the MIT License. The Windows App SDK files are included in the release zip.
+- **[Slint](https://slint.dev)**, the UI toolkit, under its royalty-free licence: Driftwave is made with Slint.
+- Rust libraries including symphonia (audio decoding), cpal (audio output) and rustfft, under the MIT or Apache-2.0
+  licences. The full list ships with each release.
 
 ## Services
 
